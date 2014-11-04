@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- Configuration settings for Debug Build -->
+<configuration>
+  <appSettings>
+    <!-- Use Microsoft Advertising Services Test ApplicationId -->
+    <add key="AdApplicationId" value="fbdb9304-5c28-4f4a-9ef9-644379d0b385"/>
+  </appSettings>
+
+  <AdControlConfigList300x600>
+    <AdControlConfigData AdControlName="AdControl300x600" AdUnitId="194034" Width="300" Height="600"/>
+  </AdControlConfigList300x600>
+
+  <AdControlConfigList300x250>
+    <AdControlConfigData AdControlName="AdControl300x250" AdUnitId="194035" Width="300" Height="250"/>
+  </AdControlConfigList300x250>
+
+  <AdControlConfigListMultiple>
+    <AdControlConfigData AdControlName="AdControl160x600" AdUnitId="194036" Width="160" Height="600"/>
+    <AdControlConfigData AdControlName="AdControl728x90" AdUnitId="194037" Width="728" Height="90"/>
+  </AdControlConfigListMultiple>
+</configuration>
+

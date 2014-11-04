@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="2cdf1b7d-99ec-472c-9dde-ca0912628308" Publisher="CN=Admin" Version="1.0.0.0" />
+  <Properties>
+    <DisplayName>ConfigureAdControlSample</DisplayName>
+    <PublisherDisplayName>proccelerate GmbH</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="InstanceFactory.ConfigureAdControlSample.App">
+      <VisualElements DisplayName="ConfigureAdControl Sample" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="Sample showin how to configure AdControls in Windows Store apps. See http://blog.instance-factory.com/?p=450 for details." ForegroundText="light" BackgroundColor="#376092">
+        <DefaultTile ShowName="allLogos" />
+        <SplashScreen Image="Assets\SplashScreen.png" />
+        <InitialRotationPreference>
+          <Rotation Preference="landscape" />
+        </InitialRotationPreference>
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>
